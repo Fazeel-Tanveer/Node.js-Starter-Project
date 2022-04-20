@@ -1,3 +1,5 @@
+This is a starter project in node.js & express.js, which we can use as a boilerplate code to build any application in node & express.js.
+
 app.js is the entry point of this project, you need to add a .env file that has following three properties:
 
 dbURI
