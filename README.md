@@ -1,10 +1,14 @@
-This is a starter project in node.js & express.js, which we can use as a boilerplate code to build any application in node & express.js.
+# Node.js & Express.js Starter Project
 
-app.js is the entry point of this project, you need to add a .env file that has following three properties:
+This is a starter project built with **Node.js** and **Express.js**. It serves as a boilerplate template for building any application using Node.js and Express.
 
-dbURI
-jwtSecret
-port
+## Project Setup
 
-Here dbURI is mongoDB link, jwtSecret is json web token secret key 
-& port is the number on which you want to run this project i.e. port number like 5000
+- The main entry point for the project is `app.js`.
+- Before running the application, create a `.env` file in the root directory and add the following three variables:
+
+  1. **dbURI**: Your MongoDB connection string.
+  2. **jwtSecret**: The secret key for signing JSON Web Tokens (JWT).
+  3. **port**: The port number on which you want to run the application (e.g., `5000`).
+
+Once the `.env` file is set up, you can start building your application using this project as a foundation.
